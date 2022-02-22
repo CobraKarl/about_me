@@ -1,0 +1,50 @@
+.navigationBarWrapper {
+  display: grid;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  padding: 0.5rem;
+  margin: 1rem 1rem;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.PictureOfMe {
+  border-radius: 60%;
+  border: 2px solid black;
+  width: 80%;
+  grid-column: 1/1;
+}
+
+.textMe {
+  grid-column: 2/800;
+  align-self: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.englishButton {
+  cursor: pointer;
+  grid-column-start: 700;
+  align-self: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.svenskButton {
+  cursor: pointer;
+  position: relative;
+  grid-column: 720;
+  align-self: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.homeButton {
+  cursor: pointer;
+  grid-column: 740;
+  align-self: center;
+  font-weight: bold;
+  font-size: 15px;
+}

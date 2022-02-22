@@ -1,0 +1,7 @@
+.text_mail {
+  text-align: start;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
