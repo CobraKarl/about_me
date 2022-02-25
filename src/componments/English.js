@@ -11,7 +11,7 @@ import AcademyOnlineLogo from "../shared/images/academy.png";
 export const English = () => {
   return (
     <div>
-      <h3 className="text">• (About me) •</h3>
+      <h3 className="text">• About me •</h3>
       <div className="swe_om">
         <p>
           Driven teamplayer with great interest in IT and new technology. Long
