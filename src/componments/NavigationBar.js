@@ -12,7 +12,7 @@ export const NavigationBar = () => {
       <img className="PictureOfMe" src={PictureOfMe}></img>
 
       <div className="textMe">
-        <h1>Mikael Karlsson</h1>
+        <h1>• Mikael Karlsson •</h1>
       </div>
 
       <button onClick={() => navigate("/english")} className="englishButton">

@@ -7,12 +7,18 @@ import OnOffLogo from "../shared/images/onoff.svg";
 import AllersLogo from "../shared/images/allers.png";
 import CampusMolndalLogo from "../shared/images/cm.jpg";
 import AcademyOnlineLogo from "../shared/images/academy.png";
+import TypIT from "../shared/images/typit.jpg";
+import AboutMe from "../shared/images/me.jpg"
+import Komp from "../shared/images/key.png"
 
 export const Swedish = () => {
   return (
     <div>
-      <h3 className="text">• Om mig •</h3>
-      <div className="swe_om">
+      
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={AboutMe}></img>
+        </div>
         <p>
           Driven lagspelare med stort intresse för IT och ny teknik. Lång
           erfarenhet från ekonomistyrning och bra på att strukturera och
@@ -22,15 +28,31 @@ export const Swedish = () => {
           nätverk.
         </p>
       </div>
-      <h3 className="text">• Främsta kompetenser •</h3>
-      <div className="swe_om">
+      
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={Komp}></img>
+        </div>
         <p>
           • Problemlösning • Active Directory • Microsoft Azure • Amazon AWS •
           Molnlösningar • Felsöknig • Konfigurering • Budget • Kostnadskontroll
-          • Kundsupport • Hyper-v • Administration (system, server etc)
+          • Kundsupport • Hyper-v • PowerShell • Administration (system, server etc)
         </p>
       </div>
       <h3 className="text">• Arbetslivserfarenhet •</h3>
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={TypIT}></img>
+        </div>
+        <div classname="head">
+          <p>TYPIT AB </p>
+        </div>
+        • Automations- och produktutvecklare (praktik) •<br></br> Mars 2022 – Maj 2022 • Hybrid
+        <br></br>
+        <p>
+        Jobbar med att automatisera, skapa och testa script i virtuella windowsmiljöer. Arbetar bland annat i och med PowerShell, Hyper-V, VMWare, Active Directory, VPN-lösningar, AD Connect och MFA m.fl.
+        </p>
+      </div>
       <div className="swe_erfarenhet">
         <div className="swe_company">
           <img className="logos" src={CodicLogo}></img>
@@ -38,13 +60,11 @@ export const Swedish = () => {
         <div classname="head">
           <p>Codic Education</p>
         </div>
-        • Molnutvecklare (praktik) •<br></br> Jan 2022 – nuvarande • Remote
+        • Molnutvecklare (praktik) •<br></br> Jan 2022 – Mars 2022 • Remote
         <br></br>
         <p>
-          Driver egna projekt (som bland annat denna CV hemsidan), skapar en
-          Pokemonsida där man kan söka efter Pokemons (med bild) som även kommer
-          inkludera ett enkelt spel. Administrerar Codics Azure portal med att
-          skapa användare, starta, stoppa, ta bort resurer etc.
+        Fick driva egna projekt (BIO/CV Webapp, Sök efter Pokemons Webapp) Administrerar Codics Azure portal med att skapa användare,
+        starta, stoppa, ta bort resurer etc. Arbetet i Visual Studio Code, Powershell, React, Github, Bash samt Azure devops och i Azure portalen.
         </p>
       </div>
       <div className="swe_erfarenhet">

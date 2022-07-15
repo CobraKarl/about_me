@@ -1,9 +1,10 @@
 import React from "react";
 import ".//Swedish.css";
 import ".//Home.css";
-import MailLogo from "../shared/images/mail.jpg";
+import MailLogo from "../shared/images/email.png";
 import LinkedLinkedInLogo from "../shared/images/linked.png";
 import GitLogo from "../shared/images/git.png";
+
 
 export const Home = () => {
   return (

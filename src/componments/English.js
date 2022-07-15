@@ -7,12 +7,16 @@ import OnOffLogo from "../shared/images/onoff.svg";
 import AllersLogo from "../shared/images/allers.png";
 import CampusMolndalLogo from "../shared/images/cm.jpg";
 import AcademyOnlineLogo from "../shared/images/academy.png";
-
+import TypIT from "../shared/images/typit.jpg";
+import AboutMe from "../shared/images/me.jpg"
+import Komp from "../shared/images/key.png"
 export const English = () => {
   return (
     <div>
-      <h3 className="text">• About me •</h3>
-      <div className="swe_om">
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={AboutMe}></img>
+        </div>
         <p>
           Driven teamplayer with great interest in IT and new technology. Long
           experience from financial management and good at structuring and
@@ -22,16 +26,31 @@ export const English = () => {
           among the most fun there is to do.
         </p>
       </div>
-      <h3 className="text">• Main skills •</h3>
-      <div className="swe_om">
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={Komp}></img>
+        </div>
         <p>
           • Problem solving • Active Directory • Microsoft Azure • Amazon AWS •
           Cloud solutions • Troubleshooting • Configuration • Budget • Cost
-          control • Customer support • Hyper-v • Administration (system, server
+          control • Customer support • Hyper-v • PowerShell • Administration (system, server
           etc.)
         </p>
       </div>
       <h3 className="text">• Work experience •</h3>
+      <div className="swe_erfarenhet">
+        <div className="swe_company">
+          <img className="logos" src={TypIT}></img>
+        </div>
+        <div classname="head">
+          <p>TYPIT AB</p>
+        </div>
+        • Automation and product developer (Internship) •<br></br> March 2022 – May 2022 • Hybrid
+        <br></br>
+        <p>
+        Works with automating, creating and testing scripts in virtual windows environments. Works in PowerShell, Hyper-V, VMWare, Active Directory, with VPN solutions and more.
+        </p>
+      </div>
       <div className="swe_erfarenhet">
         <div className="swe_company">
           <img className="logos" src={CodicLogo}></img>
@@ -39,13 +58,12 @@ export const English = () => {
         <div classname="head">
           <p>Codic Education</p>
         </div>
-        • Cloud Developer Internship •<br></br> Jan 2022 – current • Remote
+        • Cloud Developer Internship •<br></br> Jan 2022 – March 2022 • Remote
         <br></br>
         <p>
-          Runs my own projects (such as this CV website), creates a Pokemon page
-          where you can search for Pokemons (with pictures) that also include a
-          simple game. Manages Codic's Azure portal to create users, start,
-          stop, delete resources, etc.
+        Created and managed my own projects (BIO / CV Web App, Search for Pokemon Web App)
+        Manages Codic's Azure portal to create users, start, stop, delete resources, etc.
+        Worked in Visual Studio Code, Powershell, React, Github, Bash plus Azure devops and the Azure portal.
         </p>
       </div>
       <div className="swe_erfarenhet">
