@@ -206,8 +206,7 @@ export const English = () => {
         <div classname="head">
           <p>Academy Online</p>
         </div>
-        • Cerifierad Finance Assistant, Accouting and Finance •<br></br> Nov
-        2020 – Maj 2022 • Remote
+        • Cerifierad Finance Assistant, Accouting and Finance •<br></br> Aug 2020 – Oct 2020 • Remote
         <p>
           Courses:<br></br>• Financial concepts • Accounting • Financial Reports
           • VAT • Trade In Goods • Accounts • Periodizations • Employees Staff •

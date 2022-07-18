@@ -208,8 +208,8 @@ export const Swedish = () => {
         <div classname="head">
           <p>Academy Online</p>
         </div>
-        • Cerifierad Ekonomiassistent, Bokföring & Finans •<br></br> Nov 2020 –
-        Maj 2022 • Remote
+        • Cerifierad Ekonomiassistent, Bokföring & Finans •<br></br> Aug 2020 –
+        Okt 2020 • Remote
         <p>
           Kurser:<br></br>• Ekonomiska Begrepp • Företagande • Bokföring •
           Ekonomirapporter • Mervärdesskatt • Handel med varor • Reskontra •
