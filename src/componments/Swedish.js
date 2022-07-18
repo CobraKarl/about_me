@@ -211,7 +211,7 @@ export const Swedish = () => {
         • Cerifierad Ekonomiassistent, Bokföring & Finans •<br></br> Aug 2020 –
         Okt 2020 • Remote
         <p>
-          Kurser:<br></br>• Ekonomiska Begrepp! • Företagande • Bokföring •
+          Kurser:<br></br>• Ekonomiska Begrepp • Företagande • Bokföring •
           Ekonomirapporter • Mervärdesskatt • Handel med varor • Reskontra •
           Periodiseringar • Anställd Personal • Digital bokföring •
           Räkenskapsanalys.
