@@ -19,18 +19,13 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v1
         with:
-          node-version: '10.x'
+          node-version: '14.x'
 
-      - name: clean cache
-        run: npm cache clean --force
-      - name: install
-        run: npm ci
-      - name: npm install
-        run: npm install
-      - name: build
-        env:
-          CI: false
-        run: npm run test --if-present
+      - name: npm install, build, and test
+        run: |
+          npm install
+          npm run build --if-present
+          npm run test --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -57,5 +52,5 @@ jobs:
         with:
           app-name: 'mikaelkarlsson'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D2A48D09E54A459DA878447FF1E448A5 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_08A77F3DDA824736A08048A226545878 }}
           package: .
