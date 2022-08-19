@@ -28,6 +28,8 @@ jobs:
       - name: npm install
         run: npm install
       - name: build
+        env:
+          CI: false
         run: npm run test --if-present
 
       - name: Upload artifact for deployment job
