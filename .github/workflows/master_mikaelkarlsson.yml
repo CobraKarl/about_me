@@ -21,12 +21,17 @@ jobs:
         with:
           node-version: '14.x'
 
-      - name: npm install, start, build, and test
-        run: |
-
+      - name: npm install
+        run: 
+          npm install
+        
+      - name: npm start
+        run:
           npm start
-          npm run build --if-present
-          npm run test --if-present
+
+      - name: npm build
+        run:
+          npm build --if-present
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
