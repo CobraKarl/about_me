@@ -9,7 +9,7 @@ import GitLogo from "../shared/images/git.png";
 export const Home = () => {
   return (
     <div>
-      <h3 className="text">• Info •</h3>
+      <h3 className="text">• Info! •</h3>
       <div className="swe_erfarenhet">
         <div className="swe_company">
           <img className="logos" src={MailLogo}></img>
