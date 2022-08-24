@@ -34,8 +34,8 @@ export const Swedish = () => {
           <img className="logos" src={Komp}></img>
         </div>
         <p>
-          • Problemlösning • Active Directory • Microsoft Azure • Amazon AWS •
-          Molnlösningar • Felsöknig • Konfigurering • Budget • Kostnadskontroll
+          • Problemlösning • Active Directory • Microsoft Azure • Bicep •
+          Molnlösningar • Felsöknig • Konfigurering • Visual Studio Code • Kostnadskontroll
           • Kundsupport • Hyper-v • PowerShell • Administration (system, server etc)
         </p>
       </div>

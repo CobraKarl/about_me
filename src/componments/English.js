@@ -31,8 +31,8 @@ export const English = () => {
           <img className="logos" src={Komp}></img>
         </div>
         <p>
-          • Problem solving • Active Directory • Microsoft Azure • Amazon AWS •
-          Cloud solutions • Troubleshooting • Configuration • Budget • Cost
+          • Problem solving • Active Directory • Microsoft Azure • Bicep •
+          Cloud solutions • Troubleshooting • Configuration • Visual Studio Code • Cost
           control • Customer support • Hyper-v • PowerShell • Administration (system, server
           etc.)
         </p>
